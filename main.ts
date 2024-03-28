@@ -1,16 +1,8 @@
-    //Assignment 1
+ 
+ //Assignment 3
 
-    
-   // storing a person name in Lower Case
-    
+//storing the author name with his famous quote 
 
-    let personName:string = "Ali Ahmed Bangash";
-    console.log("LowerCase:", personName.toLowerCase());
+let authorName:string = "Albert Einstein";
 
-    // storing a person name in Upper Case
-
-    console.log("UpperCase:", personName.toUpperCase());
-
-    //storing a person name in Title Case
-
-    console.log("TitleCase:", personName.replace(/\b\w/g, c=>c.toUpperCase()));
+ console.log(`${authorName} once said, “A person who never made a mistake never tried anything new.”`)
