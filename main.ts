@@ -1,9 +1,16 @@
-   //      Assignment 1
+    //Assignment 1
 
-   // Storing a person name in variable 
+    
+   // storing a person name in Lower Case
+    
 
-  let personName:string = "Bangash";
+    let personName:string = "Ali Ahmed Bangash";
+    console.log("LowerCase:", personName.toLowerCase());
 
-   //printing a message to the person
+    // storing a person name in Upper Case
 
-console.log(`Hello ${personName} would you like to learn some Python today? `);
+    console.log("UpperCase:", personName.toUpperCase());
+
+    //storing a person name in Title Case
+
+    console.log("TitleCase:", personName.replace(/\b\w/g, c=>c.toUpperCase()));
